@@ -42,7 +42,7 @@ h2 { font-size: clamp(2rem, 4vw, 3.55rem); line-height: 1.06; margin-bottom: 0; 
 .menu-button { display: none; width: 46px; height: 46px; border: 0; background: var(--mist); align-items: center; justify-content: center; border-radius: 6px; }
 
 .hero { position: relative; min-height: min(650px, calc(100vh - 82px)); overflow: hidden; background: var(--forest); color: var(--white); display: flex; align-items: center; }
-.hero-photo { position: absolute; inset: 0 0 0 49%; background: url('/images/chair-ivory.jpg') center 47% / cover no-repeat; }
+.hero-photo { position: absolute; inset: 0 0 0 49%; background: url('../public/images/chair-ivory.jpg') center 47% / cover no-repeat; }
 .hero-photo::after { content: ''; position: absolute; inset: 0; background: rgba(24, 53, 47, .08); }
 .hero-inner { position: relative; z-index: 1; width: min(1180px, calc(100% - 48px)); margin: auto; padding: 72px 54% 94px 0; }
 .eyebrow { color: var(--coral-dark); font-size: 13px; font-weight: 800; letter-spacing: .11em; text-transform: uppercase; margin-bottom: 20px; }

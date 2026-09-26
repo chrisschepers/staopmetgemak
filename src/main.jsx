@@ -24,23 +24,23 @@ const PHONE_DISPLAY = '06 51 82 10 98';
 const PHONE_LINK = 'tel:+31651821098';
 
 const chairs = [
-  { id: '09029', brand: 'Fitform', width: 46, color: 'Ivoorkleur', price: 995, image: '/images/chair-ivory.jpg', battery: true },
-  { id: '10038', brand: 'Fitform', width: 46, color: 'Blauw', price: 800, image: '/images/chair-blue.jpg' },
-  { id: '08035', brand: 'Fitform', width: 51, color: 'Grijs met werkje', price: 995, image: '/images/chair-grey.jpg' },
-  { id: '10036', brand: 'Fitform', width: 46, color: 'Zwart leder', price: 800, image: '/images/chair-black.jpg', leather: true },
-  { id: '11034', brand: 'Fitform', width: 51, color: 'Rood leder', price: 1300, image: '/images/chair-red-leather.jpg', leather: true },
-  { id: '04017', brand: 'Fitform', width: 51, color: 'Geruit beige', price: 975, image: '/images/chair-plaid.jpg', battery: true },
-  { id: '10063', brand: 'Fitform', width: 51, color: 'Mintgroen', price: 950, image: '/images/chair-mint.jpg' },
-  { id: '02009', brand: 'Fitform', width: 46, color: 'Rosé rood', price: 875, image: '/images/chair-rose.jpg' },
-  { id: '03012', brand: 'Doge', width: 51, color: 'Bruin', price: 750, image: '/images/chair-brown.jpg' },
-  { id: '07026', brand: 'Fitform', width: 46, color: 'Zandkleur', price: 800, image: '/images/chair-sand.jpg' },
-  { id: '10073', brand: 'Fitform', width: 46, color: 'Oudroze', price: 750, image: '/images/chair-oldrose.jpg' },
-  { id: '04038', brand: 'Fitform', width: 51, color: 'Zandkleur', price: 700, image: '/images/chair-sand2.jpg' },
-  { id: '04041', brand: 'Fitform', width: 46, color: 'Oker met bies', price: 725, image: '/images/chair-ochre.jpg' },
-  { id: '12089', brand: 'Fitform', width: 51, color: 'Zand met zwarte bies', price: 725, image: '/images/chair-sand-black.jpg' },
-  { id: '03-D', brand: 'Doge', width: 51, color: 'Groen', price: 575, image: '/images/chair-green.jpg' },
-  { id: '03-F', brand: 'Fitform', width: 51, color: 'Bordeauxrood', price: 700, image: '/images/chair-bordeaux.jpg' },
-  { id: '09036', brand: 'Fitform', width: 51, color: 'Roodbruin', price: 675, image: '/images/chair-bordeaux.jpg' },
+  { id: '09029', brand: 'Fitform', width: 46, color: 'Ivoorkleur', price: 995, image: 'images/chair-ivory.jpg', battery: true },
+  { id: '10038', brand: 'Fitform', width: 46, color: 'Blauw', price: 800, image: 'images/chair-blue.jpg' },
+  { id: '08035', brand: 'Fitform', width: 51, color: 'Grijs met werkje', price: 995, image: 'images/chair-grey.jpg' },
+  { id: '10036', brand: 'Fitform', width: 46, color: 'Zwart leder', price: 800, image: 'images/chair-black.jpg', leather: true },
+  { id: '11034', brand: 'Fitform', width: 51, color: 'Rood leder', price: 1300, image: 'images/chair-red-leather.jpg', leather: true },
+  { id: '04017', brand: 'Fitform', width: 51, color: 'Geruit beige', price: 975, image: 'images/chair-plaid.jpg', battery: true },
+  { id: '10063', brand: 'Fitform', width: 51, color: 'Mintgroen', price: 950, image: 'images/chair-mint.jpg' },
+  { id: '02009', brand: 'Fitform', width: 46, color: 'Rosé rood', price: 875, image: 'images/chair-rose.jpg' },
+  { id: '03012', brand: 'Doge', width: 51, color: 'Bruin', price: 750, image: 'images/chair-brown.jpg' },
+  { id: '07026', brand: 'Fitform', width: 46, color: 'Zandkleur', price: 800, image: 'images/chair-sand.jpg' },
+  { id: '10073', brand: 'Fitform', width: 46, color: 'Oudroze', price: 750, image: 'images/chair-oldrose.jpg' },
+  { id: '04038', brand: 'Fitform', width: 51, color: 'Zandkleur', price: 700, image: 'images/chair-sand2.jpg' },
+  { id: '04041', brand: 'Fitform', width: 46, color: 'Oker met bies', price: 725, image: 'images/chair-ochre.jpg' },
+  { id: '12089', brand: 'Fitform', width: 51, color: 'Zand met zwarte bies', price: 725, image: 'images/chair-sand-black.jpg' },
+  { id: '03-D', brand: 'Doge', width: 51, color: 'Groen', price: 575, image: 'images/chair-green.jpg' },
+  { id: '03-F', brand: 'Fitform', width: 51, color: 'Bordeauxrood', price: 700, image: 'images/chair-bordeaux.jpg' },
+  { id: '09036', brand: 'Fitform', width: 51, color: 'Roodbruin', price: 675, image: 'images/chair-bordeaux.jpg' },
 ];
 
 const filters = [
@@ -247,7 +247,7 @@ function Service() {
 function About() {
   return (
     <section className="about" id="over-ons">
-      <div className="about-image"><img src="/images/remco-monique.jpg" alt="Remco van Sta op met gemak bij een sta-opstoel" /></div>
+      <div className="about-image"><img src="images/remco-monique.jpg" alt="Remco van Sta op met gemak bij een sta-opstoel" /></div>
       <div className="about-copy">
         <p className="eyebrow">Klein familiebedrijf</p>
         <h2>Persoonlijk geholpen door Remco en Monique.</h2>
@@ -308,7 +308,7 @@ function Faq() {
 function Contact() {
   return (
     <section className="contact" id="contact">
-      <div className="contact-photo"><img src="/images/showroom.jpg" alt="De werkplaats van Sta op met gemak in Duiven" /></div>
+      <div className="contact-photo"><img src="images/showroom.jpg" alt="De werkplaats van Sta op met gemak in Duiven" /></div>
       <div className="contact-copy">
         <p className="eyebrow eyebrow-light">Kom rustig proberen</p>
         <h2>Welkom in onze werkplaats in Duiven.</h2>
